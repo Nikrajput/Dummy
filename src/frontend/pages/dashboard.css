@@ -1,0 +1,118 @@
+/*------------------personal profile css -------------*/
+.image-upload>input {
+  display: none;
+}
+.position1{
+  position:relative;
+  font-size: 20px;
+  color: #cc2844;
+}
+.position11{
+  position:absolute;
+  right: 20%;
+  top: 30px;
+  font-size: 20px;
+  color: #cc2844;
+}
+.imagebig{
+  width: 85%;
+}
+.upima{
+  cursor: pointer;
+  position: absolute;
+  right: 10%;
+  top: 0px;
+}
+.flexdash{
+  width: 50%;
+  padding-top: 15px;
+padding-left: 10px;
+}
+.flex1{
+display: inline-block;
+width: 45%;
+padding-top: 15px;
+padding-left: 10px;
+}
+.flexfix{
+  display: flex;
+}
+.flex40{
+  width: 40%;
+}
+.flex10{
+  width: 5%;
+}
+.flex50{
+  width: 55%;
+}
+.flexd{
+  display:flex;
+  padding-left: 2.5%;
+}
+.leftposdpp{
+  position: absolute;
+  left: 3.5%;
+}
+.leftposd{
+  position: absolute;
+  left: 5%;
+}
+.rightposd{
+  position: absolute;
+  right: 60px;
+}
+.rightposdb{
+  position: absolute;
+  right: 100px;
+}
+.topbutton{
+  transform: scale(0);
+}
+/*--------------------------------------------*/
+@media (max-width:550px){
+  .position11{
+    position:absolute;
+    right: 20%;
+    top: 0px;
+  }
+  .leftposdpp{
+    transform: translateX(-10px);
+    transform: scale(0.8);
+  }
+  .topbutton{
+    transform: scale(0.6);  
+  }
+  .imagebig{
+    width: 80%;
+  }
+  .upima{
+    position: absolute;
+    right: 10%;
+    top: 0px;
+  }
+  .flexd{
+    display: block;
+    padding-left: 5%;
+  }
+  .flexdash{
+    width: 100%;
+  }
+  .leftposd{
+    position: absolute;
+    left: 5%;
+  }
+  .rightposd{
+    position: absolute;
+    right: 1px;
+  }
+  .rightposdb{
+    position: absolute;
+    right: 1px;
+  }
+  .leftposdpp{
+    position: absolute;
+    left: 7%;
+  }
+}
+

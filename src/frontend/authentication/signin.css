@@ -1,0 +1,43 @@
+.text-center{
+ padding-top: 10px; 
+}
+Form{
+  text-align: left;
+}
+.opacity{
+  opacity: 1;
+}
+.cardd{
+  opacity: 1;
+  width: fit-content;
+  background-color:rgba(0, 0, 0, 0.15);
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 2px 2px 20px 2px;
+}
+.buttonsignin{
+  color: white;
+  font-size: 22px;
+  background-color: #238EE7;
+  margin: auto;
+  width: 280px;
+  text-align: center;
+  border-color: #238EE7;
+  padding-bottom: 8px;
+  padding-top: 2px;
+  border: 0px;
+}
+.imagebackground{
+  background-image: url(../../assets/images/Login.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}

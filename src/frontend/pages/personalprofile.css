@@ -1,0 +1,148 @@
+/*----------------------Financial profile--------------*/
+.flex4{
+  text-align: left;
+  width: 70%;
+}
+.flex5{
+  float: right;
+  margin-right: auto;
+  width: 30%;
+  text-align: right;
+}
+.borderbot{
+  border-bottom: solid;
+}
+.leftpos{
+  position: absolute;
+  left: 2.5%;
+}
+.leftposd{
+  position: absolute;
+  left: 2.5%;
+}
+.rightpos{
+  position: absolute;
+  right: 2.5%;
+}
+.home,
+.reports,
+.products,
+.team,
+.reports {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.Sidebar{
+  background-color: #238EE7;
+}
+SidebarItem{
+  width: 10px;
+}
+.marginsidebar{
+  padding-right: 0px;
+}
+.flexm{
+  display: flex;
+}
+.flex1m{
+  width: 45%;
+}
+.padtx{
+  padding-top: 124px;
+}
+.padtX{
+  padding-top: 82px;
+}
+.centerbutton{
+  margin-left: auto;
+  margin-right: auto;
+}
+.centerbutton1{
+  margin-left: auto;
+  margin-right: auto;
+}
+.topupdate{
+  position: absolute;
+  right: 0px;
+  margin-right: 50%;
+}
+.toa{
+  padding-top: 20px;
+  font-weight: bold;
+}
+.itext1{
+  margin-left: 500px;
+  background-color: white;
+  position:absolute;
+  margin: 40px;
+  transform: translateX(-250px);
+  font-size: 16px;
+  display: inline;
+  width: 350px;
+  padding: 20px 20px 5px 20px;
+  border: solid 1px;
+  color: white;
+  background-color: #238EE7;
+  border-radius: 10px;
+}
+@media (max-width:800px){
+  .marginsidebar{
+    padding-right: 0px;
+  }
+}
+@media (max-width:550px){
+  .toa{
+    padding-top: 40px;
+  }
+  .topupdate{
+    position: absolute;
+    right: 0%;
+    margin-right: 0%;
+    transform: scale(0.8);
+  }
+  .flexm{
+    display: block;
+  }
+  .scaledown{
+    transform: scale(0.7);
+  }
+  .flex1m{
+    padding-top: 20px;
+    margin-left: 5%;
+    width: 90%;
+  }
+  .padtx{
+    padding-top: 20px;
+  }
+  .centerbutton{
+    padding-left: 8%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .centerbutton1{
+    padding-left: 15%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .leftpos{
+    position: absolute;
+    left: 0%;
+  }
+  .rightpos{
+    position: absolute;
+    right: 0%;
+  }
+}
+
+@media (max-width:350px){
+  .topupdate{
+    position: absolute;
+    right: 0%;
+    margin-right: 0%;
+    transform: scale(0.6);
+  }
+}

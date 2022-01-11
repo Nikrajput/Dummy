@@ -1,0 +1,17 @@
+export const SIGN_UP = "/signup";
+export const SIGN_IN = "/signin";
+export const PASSWORD_FORGET = "/forgot-password";
+export const Risk ="/risk-profile-test";
+export const Home ="/risk-profile";
+export const Finance ="/financial-literacy-test";
+export const Faq ="/faq";
+export const Mainpage="/my-profile";
+export const UserList="/userList";
+export const SuperAdmin="/userList/admin";
+export const Landingpage="/";
+export const Landingpagefinancialliteracy="/financial-literacy";
+export const Admin="/admin"
+export const Services="/services"
+export const About="/about"
+export const Careers="/careers"
+export const Userfulldata="/userfulldata"

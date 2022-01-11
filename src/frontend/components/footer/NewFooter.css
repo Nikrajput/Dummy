@@ -1,0 +1,28 @@
+footer{
+  padding: 10px 30px;
+  color: #fff;
+  /* background-color: #077; */
+}
+
+.footer_logo {
+  width: 200px;
+}
+
+.footer > * {
+  flex:1 100% ;
+}
+.footer-left {
+  margin-right: 1.25em;
+  margin-bottom: 2em;
+}
+
+.footer-left img{
+  width: 200px;
+}
+.footer ul {
+  list-style: none;
+  padding-left: 0 ;
+}
+.footer a {
+  text-decoration: none;
+}

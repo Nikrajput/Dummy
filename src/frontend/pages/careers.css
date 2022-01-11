@@ -1,0 +1,22 @@
+.cheading{
+  font-size: 5vh;
+  padding-top: 2vh;
+  text-align: center;
+  font-weight: bold;
+}
+.cwidth{
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 3vh;
+}
+.inp{
+  outline: 0;
+  border-width: 0 0 2px;
+}
+@media (max-width:800px){
+  .cwidth{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 3vh;
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "editor.tabSize": 2,
+  "editor.parameterHints.cycle": true,
+  "editor.renderControlCharacters": true,
+  "editor.renderLineHighlight": "gutter",
+  "outline.problems.colors": false,
+  "editor.wordWrap": "on",
+  "editor.copyWithSyntaxHighlighting": false,
+  "explorer.copyRelativePathSeparator": "/"
+}

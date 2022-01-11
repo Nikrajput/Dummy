@@ -1,0 +1,573 @@
+/* Responsive style */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  /* Styles */
+  .heading {
+    font-size: 20px;
+  }
+
+  .subheading {
+    font-size: 18px;
+  }
+
+  .videoPlayer .bgVideo {
+    object-position: 60%;
+  }
+
+  .primaryButtonText {
+    font-size: 18px;
+    padding: 4px 12px;
+  }
+
+  .closeDrawerIcon {
+    position: absolute !important;
+    right: 16px;
+    top: 4px;
+  }
+
+  .navLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 24px;
+  }
+
+  .drawerActionContainer {
+    position: absolute;
+    right: 12px;
+  }
+
+  .headerNav {
+    margin: 0;
+    position: relative;
+  }
+
+  .overlayText {
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 0px;
+  }
+
+  .heroHeadline {
+    font-size: 26px;
+  }
+
+  .animatedTextSection {
+    text-shadow: 1px 1px rgba(68, 68, 68, 0.4);
+    font-size: 22px;
+    margin-top: 32px;
+  }
+
+  .propositionSection {
+    font-size: 22px;
+    padding-top: 10vh;
+  }
+
+  .heroBottomSection {
+    text-shadow: 1.5px 1.5px rgba(68, 68, 68, 0.4);
+    font-size: 14px;
+  }
+
+  .section2 {
+    display: flex;
+    width: 100%;
+    padding: 72px 0 128px;
+  }
+
+  /* .questionItem {
+    padding-top: 32px;
+  } */
+
+  .section2AccordionSummary {
+    font-size: 16px;
+  }
+
+  .section2Left {
+    width: 100%;
+  }
+
+  .innerSection2Left {
+    width: 90%;
+  }
+
+  .accordionText {
+    font-size: 16px;
+  }
+
+  .section3 {
+    flex-direction: column;
+  }
+
+  .section3Left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .innerSection3Left {
+    width: 90%;
+    margin: auto;
+    padding-left: 0px;
+  }
+
+  .section3Right {
+    display: flex;
+    width: 100%;
+  }
+
+  .section3RightText {
+    width: 100%;
+    padding-top: 64px;
+    font-size: 16px;
+  }
+
+  .section4 {
+    flex-direction: column;
+  }
+
+  .section4Left {
+    width: 100%;
+    margin-bottom: 64px;
+  }
+
+  .section4Right {
+    width: 100%;
+  }
+
+  .innerSection4Right {
+    width: 90%;
+  }
+
+  .section4Summary {
+    font-size: 20px;
+  }
+
+  .section4RightText {
+    font-size: 16px;
+  }
+
+  .personDescription {
+    flex-direction: column-reverse;
+  }
+
+  .testimonialContainer {
+    min-height: 200px;
+    font-size: 16px;
+  }
+
+  .testimonialAvatar {
+    height: 113px !important;
+    width: 113px !important;
+  }
+
+  .testimonialName {
+    font-size: 18px;
+  }
+
+  .designation {
+    font-size: 16px;
+  }
+
+  .section5 {
+    flex-direction: column;
+  }
+
+  .section5Left {
+    width: 100%;
+  }
+
+  .innerSection5Left {
+    width: 90%;
+  }
+
+  .section5Right {
+    width: 100%;
+  }
+
+  .innerSection5Right {
+    width: 90%;
+  }
+
+  .section5RightText {
+    font-size: 18px;
+    line-height: 1.9rem;
+  }
+
+  .roiFormulaContainer {
+    font-size: 20px;
+  }
+
+  .section6 {
+    flex-direction: column;
+  }
+
+  .section6Left {
+    width: 100%;
+  }
+
+  .section6Right {
+    width: 100%;
+    margin-top: 64px;
+  }
+
+  .innerSection6Right {
+    width: 90%;
+  }
+
+  .nameContainer {
+    flex-direction: column;
+  }
+
+  .lastNameField {
+    margin-left: 0 !important;
+  }
+
+  .submitContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contactFormSubmitButton {
+    width: 100%;
+  }
+
+  .submitResponseText {
+    margin: 32px 0 0 0 !important;
+  }
+
+  .footerContent {
+    flex-direction: column;
+    padding: 3vh;
+  }
+
+  .footerSectionEnd {
+    flex-direction: column-reverse;
+    padding-top: 16px;
+  }
+
+  .footerSectionEndContact {
+    text-align: left;
+    padding: 0 0 3vh 0;
+  }
+
+  .footerSectionEndLinks {
+    padding: 0 0 8vh 0;
+  }
+
+  .footerContactNumber {
+    font-size: 18px;
+  }
+
+  .footerCopyrightText {
+    bottom: 8%;
+  }
+
+  .footerContactEmail {
+    font-size: 18px;
+  }
+
+  .footerLogo {
+    height: 48px;
+  }
+
+  .footerSectionEndContactSocial {
+    justify-content: flex-start;
+  }
+
+  .footerSocialIcon {
+    margin: 12px 32px 0px 0px;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */
+  .videoPlayer .bgVideo {
+    object-position: 65%;
+  }
+
+  .primaryButtonText {
+    font-size: 18px;
+    padding: 4px 12px;
+  }
+
+  .closeDrawerIcon {
+    position: absolute !important;
+    right: 16px;
+    top: 4px;
+  }
+
+  .navLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 24px;
+  }
+
+  .drawerActionContainer {
+    position: absolute;
+    right: 12px;
+  }
+
+  .headerNav {
+    margin: 0;
+    position: relative;
+  }
+
+  .overlayText {
+    padding: 144px 16px 0 48px;
+  }
+
+  .heroHeadline {
+    font-size: 32px;
+  }
+
+  .animatedTextSection {
+    font-size: 28px;
+    margin-top: 32px;
+  }
+
+  .propositionSection {
+    font-size: 28px;
+    padding-top: 256px;
+  }
+
+  .heroBottomSection {
+    font-size: 18px;
+  }
+
+  .section2 {
+    display: flex;
+    width: 100%;
+    padding: 128px 0 128px 0;
+  }
+
+  .section2Left {
+    width: 100%;
+  }
+
+  .innerSection2Left {
+    width: 90%;
+  }
+
+  .section3 {
+    flex-direction: column;
+  }
+
+  .section3Left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .innerSection3Left {
+    width: 90%;
+    padding-left: 0px;
+    margin: auto;
+  }
+
+  .section3Right {
+    display: flex;
+    width: 100%;
+  }
+
+  .section3RightText {
+    width: 90%;
+    margin-top: 64px;
+  }
+
+  .section4 {
+    flex-direction: column;
+  }
+
+  .section4Left {
+    width: 100%;
+    margin-bottom: 64px;
+  }
+
+  .section4Right {
+    width: 100%;
+  }
+
+  .innerSection4Right {
+    width: 90%;
+  }
+
+  .section5 {
+    flex-direction: column;
+  }
+
+  .section5Left {
+    width: 100%;
+  }
+
+  .innerSection5Left {
+    width: 90%;
+  }
+
+  .section5Right {
+    width: 100%;
+  }
+
+  .innerSection5Right {
+    width: 90%;
+  }
+
+  .section6 {
+    flex-direction: column;
+  }
+
+  .section6Left {
+    width: 100%;
+  }
+
+  .section6Right {
+    width: 100%;
+    margin-top: 64px;
+  }
+
+  .innerSection6Right {
+    width: 90%;
+  }
+
+  .nameContainer {
+    flex-direction: column;
+  }
+
+  .lastNameField {
+    margin-left: 0 !important;
+  }
+
+  .submitContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contactFormSubmitButton {
+    width: 100%;
+  }
+
+  .submitResponseText {
+    margin: 32px 0 0 0 !important;
+  }
+
+  .footerContent {
+    flex-direction: column;
+    padding: 3vh;
+  }
+
+  .footerSectionEnd {
+    flex-direction: column-reverse;
+    padding-top: 16px;
+  }
+
+  .footerSectionEndContact {
+    text-align: left;
+    padding: 0 0 3vh 0;
+  }
+
+  .footerSectionEndLinks {
+    padding: 0 0 6vh 0;
+  }
+
+  .footerContactNumber {
+    font-size: 18px;
+  }
+
+  .footerContactEmail {
+    font-size: 18px;
+  }
+
+  .footerLogo {
+    height: 48px;
+  }
+
+  .footerSectionEndContactSocial {
+    justify-content: flex-start !important;
+  }
+
+  .footerSocialIcon {
+    margin: 12px 32px 0px 0px !important;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1224px) {
+  .heroHeadline {
+    font-size: 48px !important;
+  }
+
+  .animatedTextSection {
+    font-size: 32px !important;
+  }
+
+  .heroBottomSection {
+    font-size: 28px !important;
+  }
+
+  .propositionSection {
+    font-size: 28px !important;
+  }
+
+  .headerNav {
+    margin: 0 0 0 32px !important;
+    font-size: 16px !important;
+  }
+
+  .navButton {
+    margin-left: 32px !important;
+  }
+
+  .footerSectionEndContactSocial {
+    justify-content: flex-start !important;
+  }
+
+  .footerSocialIcon {
+    margin: 12px 32px 0px 0px !important;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1224px) {
+  .heroHeadline {
+    font-size: 36px;
+  }
+
+  .animatedTextSection {
+    font-size: 20px;
+  }
+
+  .heroBottomSection {
+    font-size: 18px;
+  }
+
+  .propositionSection {
+    font-size: 20px;
+  }
+
+  .headerNav {
+    margin: 0 0 0 32px;
+    font-size: 16px;
+  }
+
+  .navButton {
+    margin-left: 32px !important;
+  }
+
+  /* .questionItem {
+    padding-top: 16px;
+  } */
+
+  .footerSectionEndContactSocial {
+    justify-content: flex-end !important;
+  }
+
+  .footerSocialIcon {
+    margin: 12px 0px 0px 32px !important;
+  }
+}
+
+@media only screen and (min-width: 1441px) {
+  .heroHeadline {
+    font-size: 56px;
+  }
+}
